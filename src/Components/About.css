@@ -1,0 +1,22 @@
+.about {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.aboutSection {
+    display: flex;
+    gap: 40px;
+
+}
+
+.imageSection {
+    flex: 2;
+    background: pink;
+}
+
+.writeUp {
+    flex: 3;
+    background-color: aquamarine;
+}
