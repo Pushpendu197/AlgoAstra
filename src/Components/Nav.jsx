@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { faCodepen } from '@fortawesome/free-brands-svg-icons'
+import './Navbar.css'
+import { faHamburger } from '@fortawesome/free-solid-svg-icons';
 
 const Nav = () => {
     return (
@@ -10,8 +12,11 @@ const Nav = () => {
             <div>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
                     <div className="container header">
+                        <div className='sideNav'>
+                            <FontAwesomeIcon icon={faHamburger} />
+                        </div>
                         <a className="navbar-brand" href="#">
-                            <FontAwesomeIcon icon={faCodepen} /> AlgorithmAstra
+                            <FontAwesomeIcon icon={faCodepen} /> AlgoAstra
                             {/* <img src="../public/user_icon.png" alt="" />  */}
                         </a>
                         <button
