@@ -1,0 +1,32 @@
+.HeaderSection {
+    padding: 1rem;
+    color: #edecec;
+
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.navBox {
+    display: flex;
+    gap: 20px;
+}
+
+.SideNavLink {
+    display: flex;
+    gap: 8rem;
+}
+
+.Range {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Infoicon {
+    font-size: 25px;
+    cursor: pointer;
+}

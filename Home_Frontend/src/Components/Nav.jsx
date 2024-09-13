@@ -12,9 +12,9 @@ const Nav = () => {
             <div>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
                     <div className="container header">
-                        <div className='sideNav'>
+                        {/* <div className='sideNav'>
                             <FontAwesomeIcon icon={faHamburger} />
-                        </div>
+                        </div> */}
                         <a className="navbar-brand" href="#">
                             <FontAwesomeIcon icon={faCodepen} /> AlgoAstra
                             {/* <img src="../public/user_icon.png" alt="" />  */}
